@@ -116,6 +116,13 @@ li {
   font-weight: 700;
   font-size: 2rem;
 }
+.s-ttl span {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+.s-ttl span:nth-of-type(5) {
+  margin-bottom: 0;
+}
 .fv-img {
   width: 40%;
   aspect-ratio: 4 / 3;
@@ -127,7 +134,7 @@ li {
 .fv-s-sub {
   display: flex;
   gap: 26px;
-  margin-top: 3.5rem;
+  margin-top: 2.3rem;
   text-align: center;
 }
 .fv-s-sub p {
@@ -146,11 +153,11 @@ li {
   max-width: 350px;
   background-color: #FF7A00;
   color: #fff;
-  padding: 0.8rem 1.4rem;
+  padding: 1rem 1.4rem;
   font-weight: 700;
   font-size: 1.25rem;
   margin: 0 auto;
-  margin-top: 2.5rem;
+  margin-top: 3.8rem;
 }
 .fv-btn__span {
   font-size: 1rem;
@@ -238,7 +245,6 @@ li {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-align: center;
-  margin-bottom: 3.75rem;
 }
 .solve-ttl__highlight {
   font-size: 2.5rem;
@@ -251,7 +257,6 @@ li {
   align-items: center;
   text-align: center;
   gap: 30px;
-  margin-bottom: 3.75rem;
 }
 
 .solve-box__item {
@@ -386,11 +391,12 @@ li {
 .intro-box::after {
   content: "";
   position: absolute;
-  bottom: -28px;
+  bottom: -30px;
   right: 45%;
   border-top: 40px solid #F5F5F5;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
+  filter: drop-shadow(0 13px 8px rgba(0, 0, 0, 0.15));
 }
 .intro-sub {
   font-size: 1.5rem;
@@ -507,7 +513,6 @@ li {
   position: relative;
   margin-bottom: 3.75rem;
 }
-
 .faq-s-ttl .s-ttl__4::after {
   content: "";
   position: absolute;
@@ -522,7 +527,7 @@ li {
   max-width: 960px;
   background-color: #F5F5F5;
   margin: 0 auto 1.3rem;
-  padding: 1.25rem 2.5rem;
+  padding: 0.75rem 2.5rem;
 }
 .faq-list dt,
 .faq-list dd {
@@ -535,6 +540,8 @@ li {
 .faq-list dt {
   position: relative;
   padding-right: 2.5rem;
+  min-height: 40px;
+  margin-top: 7px;
 }
 
 .question {
@@ -638,7 +645,7 @@ li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 .contact-wrap__con__form {
-  padding: 2rem;
+  padding: 1.2rem;
 }
 .contact-wrap__con__form__item {
   margin: 2.5rem 0;
